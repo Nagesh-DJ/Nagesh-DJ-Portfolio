@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagesh DJ - SDET Engineer</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background: linear-gradient(45deg, #2c3e50, #34495e, #5d6d7e);
+            background-size: 400% 400%;
+            animation: gradientBackground 15s ease infinite;
+            height: 100vh;
+        }
+
+        /* Keyframes for background animation */
+        @keyframes gradientBackground {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            margin-top: 50px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .header img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .header img:hover {
+            transform: scale(1.1);
+        }
+
+        .header h1 {
+            font-size: 40px;
+            margin: 20px 0;
+            color: #fff;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .header h2 {
+            font-size: 24px;
+            font-weight: lighter;
+            margin-bottom: 20px;
+            color: #16a085;
+        }
+
+        .header p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        /* Skills Section */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .skill:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .skill img {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .skill img:hover {
+            transform: scale(1.2);
+        }
+
+        .skill p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .contact a {
+            color: #42a5f5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact p {
+            font-size: 18px;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header h2 {
+                font-size: 20px;
+            }
+
+            .skills {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+
+            .contact p, .contact a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <img src="images/profile.jpg" alt="Nagesh DJ">
+        <h1>Nagesh DJ</h1>
+        <h2>SDET Engineer</h2>
+        <p>Obsessed with revolutionizing software delivery through cutting-edge Automation Testing, seamless Web & Mobile Testing, high-performance API Testing, and game-changing DevOps tools—driving speed, quality, and innovation</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills">
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/selenium.png" alt="Selenium Logo">
+                <p>Selenium</p>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/java.png" alt="Java Logo">
+                <p>Java</p>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/testng.png" alt="TestNG Logo">
+                <p>TestNG</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/cucumber.png" alt="Cucumber Logo">
+                <p>Cucumber</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/oracle_sql.png" alt="Oracle SQL Logo">
+                <p>Oracle SQL</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/restassured.png" alt="RestAssured Logo">
+                <p>RestAssured</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/postman.png" alt="Postman Logo">
+                <p>Postman</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/appium.png" alt="Appium Logo">
+                <p>Appium</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/maven.png" alt="Maven Logo">
+                <p>Maven</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/jenkins.png" alt="Jenkins Logo">
+                <p>Jenkins</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/github.png" alt="GitHub Logo">
+                <p>GitHub</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/aws.png" alt="AWS Logo">
+                <p>AWS</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/selenium_grid.png" alt="Selenium Grid Logo">
+                <p>Selenium Grid</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/docker.png" alt="Docker Logo">
+                <p>Docker</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/zalenium.png" alt="Zalenium Logo">
+                <p>Zalenium</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/charles_proxy.png" alt="Charles Proxy Logo">
+                <p>Charles Proxy</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/fiddler.png" alt="Fiddler Logo">
+                <p>Fiddler</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-content front">
+                <img src="images/logos/jira.png" alt="Jira Logo">
+                <p>Jira</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <p>Email: <a href="mailto:nageshdj97@gmail.com">nageshdj97@gmail.com</a></p>
+        <p>Phone: 7208465007</p>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2025 Nagesh DJ - All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
